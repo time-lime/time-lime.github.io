@@ -1,7 +1,7 @@
 /* ===== Ghibli-inspired design tokens ===== */
 :root {
   --font-sans: "Gowun Dodum", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
-  --font-display: "Jua", "Gowun Dodum", sans-serif;
+  --font-display: "Paperlogy", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
 
   --color-sky-top: #4DB8E8;
   --color-sky-mid: #87CEEB;
@@ -137,6 +137,12 @@ ul {
   transform: translateY(0);
 }
 
+.papers-page .papers-category.reveal,
+.talks-page .papers-category.reveal {
+  opacity: 1;
+  transform: none;
+}
+
 /* ===== Header & nav ===== */
 .site-header {
   position: fixed;
@@ -168,7 +174,7 @@ ul {
 .nav__logo {
   font-family: var(--font-display);
   font-size: clamp(1.25rem, 2.8vw, 1.65rem);
-  font-weight: 400;
+  font-weight: 600;
   color: var(--color-grass-dark);
   letter-spacing: 0.02em;
   white-space: nowrap;
@@ -432,10 +438,10 @@ ul {
 /* 이름(조혜선입니다. / Hyesun Cho.)만 원래 제목 크기의 70% — KOR·ENG 동일 */
 .hero__title {
   font-family: var(--font-display);
-  font-size: clamp(1.82rem, 4.55vw, 2.94rem);
-  font-weight: 400;
+  font-size: clamp(1.28rem, 3vw, 1.55rem);
+  font-weight: 600;
   line-height: 1.2;
-  margin-bottom: 1rem;
+  margin-bottom: 0.55rem;
   color: var(--color-text);
   text-shadow: 0 1px 2px rgba(255, 255, 255, 0.4), 0 2px 8px rgba(61, 50, 41, 0.15);
 }
@@ -529,7 +535,7 @@ ul {
 .section__title {
   font-family: var(--font-display);
   font-size: clamp(1.85rem, 4vw, 2.6rem);
-  font-weight: 400;
+  font-weight: 600;
   color: var(--color-text);
 }
 
@@ -1465,7 +1471,7 @@ ul {
 .papers-hero__title {
   font-family: var(--font-display);
   font-size: clamp(2.2rem, 5vw, 3.2rem);
-  font-weight: 400;
+  font-weight: 600;
   margin-bottom: 0.75rem;
 }
 
