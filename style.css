@@ -1,3 +1,27 @@
+@font-face {
+  font-family: "Paperlogy";
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+  src: url("fonts/Paperlogy-4Regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Paperlogy";
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+  src: url("fonts/Paperlogy-6SemiBold.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Paperlogy";
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+  src: url("fonts/Paperlogy-7Bold.woff2") format("woff2");
+}
+
 /* ===== Ghibli-inspired design tokens ===== */
 :root {
   --font-sans: "Gowun Dodum", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
@@ -480,6 +504,12 @@ ul {
   margin-bottom: 1rem;
   color: var(--color-text);
   line-height: 1.35;
+}
+
+#heroContent[lang="en"] .hero__subtitle {
+  font-size: clamp(0.88rem, 2vw, 1.08rem);
+  line-height: 1.4;
+}
 }
 
 .hero__subtitle-line {
