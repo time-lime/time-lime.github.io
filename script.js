@@ -30,6 +30,30 @@
   const navMenu = document.getElementById("navMenu");
   const navLinks = document.querySelectorAll(".nav__link");
   const isHomePage = Boolean(document.querySelector(".hero"));
+  const heroBgImage = document.getElementById("heroBgImage");
+
+  /* ----- Seasonal hero background ----- */
+  const HERO_SEASONS = {
+    spring: "hero-bg-campus.jpg",
+    summer: "hero-bg-campus-pond.jpg",
+    autumn: "hero-bg-campus-ginkgo.jpg",
+    winter: "hero-bg-campus-winter.jpg",
+  };
+
+  function seasonForMonth(month) {
+    if (month >= 3 && month <= 5) return "spring";
+    if (month >= 6 && month <= 8) return "summer";
+    if (month >= 9 && month <= 11) return "autumn";
+    return "winter";
+  }
+
+  if (heroBgImage) {
+    const season = seasonForMonth(new Date().getMonth() + 1);
+    const nextSrc = HERO_SEASONS[season];
+    if (nextSrc && !heroBgImage.src.includes(nextSrc)) {
+      heroBgImage.src = nextSrc;
+    }
+  }
   const themeToggle = document.getElementById("themeToggle");
   const themeIcon = themeToggle?.querySelector(".theme-toggle__icon");
   const typedName = document.getElementById("typedName");
