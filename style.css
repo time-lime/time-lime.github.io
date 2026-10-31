@@ -1776,6 +1776,10 @@ a.paper-item__title:hover {
   transition: transform 0.4s ease;
 }
 
+.talks-photos__img--night {
+  object-position: center;
+}
+
 .talks-photos__item:hover .talks-photos__figure img {
   transform: scale(1.03);
 }
