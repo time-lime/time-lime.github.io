@@ -498,6 +498,9 @@ ul {
 }
 
 .hero__subtitle {
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
   font-family: var(--font-display);
   font-size: clamp(1.05rem, 2.5vw, 1.3rem);
   font-weight: 400;
@@ -510,10 +513,13 @@ ul {
   font-size: clamp(0.8rem, 1.75vw, 0.96rem);
   line-height: 1.4;
 }
-}
 
 .hero__subtitle-line {
   display: block;
+}
+
+.hero__subtitle br {
+  display: none;
 }
 
 .hero__desc {
@@ -776,10 +782,6 @@ ul {
   color: var(--color-sky-mid);
   line-height: 1;
   margin-bottom: 0.75rem;
-}
-
-.project-card__num strong {
-  font-weight: 700;
 }
 
 .project-card__num--range {
