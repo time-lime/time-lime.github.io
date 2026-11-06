@@ -23,7 +23,6 @@
       </button>
       <ul class="nav__menu" id="navMenu">
         <li><a href="#about" class="nav__link">About</a></li>
-        <li><a href="#skills" class="nav__link">Expertise</a></li>
         <li><a href="#experience" class="nav__link">Education</a></li>
         <li><a href="papers.html" class="nav__link">Papers</a></li>
         <li><a href="talks.html" class="nav__link">Talks</a></li>
@@ -59,8 +58,7 @@
           <span class="hero__subtitle-line" id="heroSubtitle2">음운론·음성학·AI활용 언어학 및 영어교육 연구</span>
         </p>
         <p class="hero__desc" id="heroDesc">
-          MIT에서 언어학 박사(음운론·음성학)를 취득했으며,
-          언어학, AI의 언어 능력 연구 및 AI 활용 영어교육에 대한 연구를 하고 있습니다.
+          MIT에서 언어학 박사(음운론·음성학 전공) 학위를 취득했습니다. 음운론·음성학·형태론의 패턴을 통계 및 기계학습 방법으로 분석하는 데 관심을 두고, 최대 엔트로피 모델과 딥러닝을 이용한 음소배열 규칙, 대규모 언어모델(LLM)의 음운·형태론 추론 능력, 디지털·AI 도구를 활용한 영어교육에 대해 연구하고 있습니다.
         </p>
         <div class="hero__actions">
           <a href="papers.html" class="btn btn--primary"> Research </a>
@@ -77,15 +75,21 @@
           <h2 class="section__title" id="aboutTitle"> Introduction </h2>
         </header>
         <div class="about reveal">
-          <div class="about__text">
+          <div class="about__text" data-about-lang="ko" lang="ko">
             <p>
-              저는 <strong>단국대학교 교육대학원</strong>에서 영어교육전공 소속 교수로 재직하고 있습니다.
+              저는 <strong>단국대학교 교육대학원</strong> 영어교육전공 교수로 재직하고 있습니다.
             </p>
             <p>
-              <strong>MIT(Massachusetts Institute of Technology)</strong> 언어학과에서
-              음운론(phonology)과 음성학(phonetics)을 전공하여 언어학 박사 학위를 취득했습니다.
-              박사 논문은 <a href="https://dspace.mit.edu/handle/1721.1/62312" target="_blank" rel="noopener noreferrer"><em>A weighted-constraint model of F0 movements</em></a>이며,
-              지도교수는 Edward Flemming 교수님과 Michael Kenstowicz 교수님입니다.
+              <strong>MIT</strong> 언어학과에서 음운론·음성학을 전공하여 박사 학위를 취득했습니다.
+              박사 논문 <a href="https://dspace.mit.edu/handle/1721.1/62312" target="_blank" rel="noopener noreferrer"><em>A weighted-constraint model of F0 movements</em></a>(지도교수: Edward Flemming, Michael Kenstowicz)에서는
+              비용함수 기반의 가중치 제약 모델로 성조·억양의 음성적 실현을 분석했습니다.
+            </p>
+            <p>
+              최근에는 최대 엔트로피 모델과 딥러닝을 이용한 음소배열 연구에 주로 관심을 두고, 모델의 판단을 인간 화자의 판단과 비교하고 있습니다.
+              또한 대규모 언어모델(LLM)의 음운론·형태론 추론 능력을 평가하고 있습니다.
+            </p>
+            <p>
+              음성학 분야에서는 한국인 영어 학습자와 원어민 화자의 발화를 음향 분석으로 비교하는 연구를 해왔습니다. 또한 교육대학원에서 교사들에게 디지털·AI 도구를 영어 수업에 활용하는 방법을 지도하고 있습니다.
             </p>
             <ul class="about__facts">
               <li>
@@ -98,7 +102,38 @@
               </li>
               <li>
                 <span class="about__fact-label">연구 관심</span>
-                <span>음운론, 음성학, AI 활용 언어학 연구, AI 활용 영어교육 연구</span>
+                <span>딥러닝 기반 음소배열 연구, LLM의 언어 능력 평가, 실험 음성학, 디지털·AI 활용 영어교육</span>
+              </li>
+            </ul>
+          </div>
+          <div class="about__text" data-about-lang="en" lang="en" hidden>
+            <p>
+              I am a professor in the English Education program at the <strong>Graduate School of Education, Dankook University</strong>.
+            </p>
+            <p>
+              I received my Ph.D. in Linguistics from <strong>MIT</strong>, specializing in phonology and phonetics.
+              In my dissertation, <a href="https://dspace.mit.edu/handle/1721.1/62312" target="_blank" rel="noopener noreferrer"><em>A weighted-constraint model of F0 movements</em></a> (advisors: Edward Flemming and Michael Kenstowicz),
+              I analyzed the phonetic realization of tone and intonation using a cost-function-based weighted-constraint model.
+            </p>
+            <p>
+              My recent work focuses on modeling phonotactics with maximum entropy models and deep learning, comparing model judgments with those of human speakers.
+              I also evaluate the phonological and morphological reasoning abilities of large language models (LLMs).
+            </p>
+            <p>
+              In phonetics, I have conducted acoustic analyses of Korean learners' English pronunciation in comparison with that of native speakers. I also teach in-service teachers at the Graduate School of Education how to use digital and AI tools in the English classroom.
+            </p>
+            <ul class="about__facts">
+              <li>
+                <span class="about__fact-label">Affiliation</span>
+                <span>Dankook University, Graduate School of Education (English Education program)</span>
+              </li>
+              <li>
+                <span class="about__fact-label">Degree</span>
+                <span>Ph.D. in Linguistics (phonology and phonetics)</span>
+              </li>
+              <li>
+                <span class="about__fact-label">Research</span>
+                <span>Deep learning-based phonotactics, evaluation of LLM linguistic abilities, experimental phonetics, digital/AI-assisted English education</span>
               </li>
             </ul>
           </div>
@@ -106,38 +141,7 @@
       </div>
     </section>
 
-    <section class="section section--alt" id="skills" aria-labelledby="skillsTitle">
-      <div class="container">
-        <header class="section__header reveal">
-          <span class="section__label">Expertise</span>
-          <h2 class="section__title" id="skillsTitle">전문 분야</h2>
-        </header>
-        <ul class="skills-grid reveal">
-          <li class="skill-card">
-            <h3>음운론 · 음성학</h3>
-            <p>Phonology &amp; Phonetics, F0 연구, weighted-constraint 모델</p>
-            <div class="skill-bar" data-level="95"><span></span></div>
-          </li>
-          <li class="skill-card">
-            <h3>영어교육</h3>
-            <p>교육대학원 교수, 언어학 (음성학, 음운론) 전공</p>
-            <div class="skill-bar" data-level="92"><span></span></div>
-          </li>
-          <li class="skill-card">
-            <h3> AI 언어 능력 연구 및· AI활용 학습 설계</h3>
-            <p>Generative AI as a Learning Design Partner (Michigan/Coursera, 2025)</p>
-            <div class="skill-bar" data-level="85"><span></span></div>
-          </li>
-          <li class="skill-card">
-            <h3>빅데이터 · AI 디지털 교육</h3>
-            <p>빅데이터분석기사, Google Certified Educator (Level 1·2)</p>
-            <div class="skill-bar" data-level="80"><span></span></div>
-          </li>
-        </ul>
-      </div>
-    </section>
-
-    <section class="section" id="experience" aria-labelledby="expTitle">
+    <section class="section section--alt" id="experience" aria-labelledby="expTitle">
       <div class="container">
         <header class="section__header reveal">
           <span class="section__label">Education</span>
@@ -145,7 +149,7 @@
         </header>
         <ol class="timeline reveal">
           <li class="timeline__item">
-            <time datetime="mit-phd">박사</time>
+            <span class="timeline__label">박사</span>
             <h3>MIT — Department of Linguistics and Philosophy</h3>
             <p>
               Ph.D. in Linguistics (음운론·음성학 전공)<br />
@@ -154,7 +158,7 @@
             </p>
           </li>
           <li class="timeline__item">
-            <time datetime="snu-ma">석사</time>
+            <span class="timeline__label">석사</span>
             <h3>서울대학교 — 영어영문학과</h3>
             <p>
               Seoul National University<br />
@@ -162,7 +166,7 @@
             </p>
           </li>
           <li class="timeline__item">
-            <time datetime="ewha-ba">학사</time>
+            <span class="timeline__label">학사</span>
             <h3>이화여자대학교 — 영어영문학과</h3>
             <p>
               Ewha Womans University<br />
@@ -173,7 +177,7 @@
       </div>
     </section>
 
-    <section class="section section--alt" id="projects" aria-labelledby="projectsTitle">
+    <section class="section" id="projects" aria-labelledby="projectsTitle">
       <div class="container">
         <header class="section__header reveal">
           <span class="section__label">Credentials</span>
