@@ -12,7 +12,7 @@
       subtitle1: "단국대학교 교육대학원 교수",
       subtitle2: "음운론·음성학·AI활용 언어학 및 영어교육 연구",
       desc:
-        "MIT에서 언어학 박사(음운론·음성학 전공) 학위를 취득했습니다. 음운론·음성학·형태론의 패턴을 통계 및 기계학습 방법으로 분석하는 데 관심을 두고, 최대 엔트로피 모델과 딥러닝을 이용한 음소배열 규칙, 대규모 언어모델(LLM)의 음운·형태론 추론 능력, 디지털·AI 도구를 활용한 영어교육에 대해 연구하고 있습니다.",
+        "음운론·음성학·형태론의 패턴을 통계 및 기계학습 방법으로 분석하는 데 관심을 두고, 최대 엔트로피 모델과 딥러닝을 이용한 음소배열 규칙, 대규모 언어모델(LLM)의 음운·형태론 추론 능력, 디지털·AI 도구를 활용한 영어교육에 대해 연구하고 있습니다.",
     },
     en: {
       greeting: "Hello, I am",
@@ -20,7 +20,7 @@
       subtitle1: "Professor, Dankook University, Graduate School of Education",
       subtitle2: "Phonology, phonetics, AI-assisted linguistics research & English education",
       desc:
-        "I received my Ph.D. in Linguistics from MIT, specializing in phonology and phonetics. I am interested in analyzing patterns in phonology, phonetics, and morphology using statistical and machine learning methods. My research covers modeling phonotactics with maximum entropy models and deep learning, the phonological and morphological reasoning abilities of large language models (LLMs), and the use of digital and AI tools in English education.",
+        "I am interested in analyzing patterns in phonology, phonetics, and morphology using statistical and machine learning methods. My research covers modeling phonotactics with maximum entropy models and deep learning, the phonological and morphological reasoning abilities of large language models (LLMs), and the use of digital and AI tools in English education.",
     },
   };
 
