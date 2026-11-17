@@ -728,11 +728,6 @@ ul {
   margin-bottom: 0.75rem;
 }
 
-.project-card__num--range {
-  font-size: 1.45rem;
-  line-height: 1.2;
-}
-
 [data-theme="dark"] .project-card__num {
   color: var(--color-accent);
 }
